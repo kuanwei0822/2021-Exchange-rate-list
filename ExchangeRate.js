@@ -109,9 +109,9 @@ $(document).ready(function(){
 		
 		// 判斷input資料 -> 決定要請求的網址:(年/月)
 		if( $("#bytime").val()==1 ){
-			data_url = "https://apiservice.mol.gov.tw/OdService/download/A17030000J-000049-gDQ";
+			data_url = "https://apiservice.mol.gov.tw/OdService/download/A17030000J-000049-Hl2";
 		}else if( $("#bytime").val()==2 ){
-			data_url = "https://apiservice.mol.gov.tw/OdService/download/A17000000J-030185-ofw";
+			data_url = "https://apiservice.mol.gov.tw/OdService/download/A17000000J-030185-eun";
 		}
 		
 		// 網址來源:
@@ -119,11 +119,12 @@ $(document).ready(function(){
 		// 來源-政府資料開放平台: https://data.gov.tw/dataset/31897 
 
 		// 取得網址: https://data.gov.tw/dataset/31897
-		// 國際主要國家貨幣每月匯率: https://apiservice.mol.gov.tw/OdService/download/A17030000J-000049-gDQ
+		// 國際主要國家貨幣每月匯率: https://apiservice.mol.gov.tw/OdService/download/A17030000J-000049-Hl2
 
 		// 取得網址: https://data.gov.tw/dataset/57172
-		// 國際主要國家貨幣每年匯率: https://apiservice.mol.gov.tw/OdService/download/A17000000J-030185-ofw
-		
+		// 國際主要國家貨幣每年匯率: https://apiservice.mol.gov.tw/OdService/download/A17000000J-030185-eun
+
+
 		// 建立請求物件
 		var request = new XMLHttpRequest();
 		// 設定請求方式:get，根據input使用:data_url
